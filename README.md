@@ -1,6 +1,6 @@
 # Calorie Tracker REST API
 This is a RESTful API built in JavaScript that allows users to track their calorie intake. 
-* _It was inspired by https://github.com/DiveHQ/backend-internship-task repository_ 
+_Inspired by https://github.com/DiveHQ/backend-internship-task repository_ 
 
 ### Task Instructions
 - API Users must be able to create an account and log in.
