@@ -3,18 +3,18 @@ This is a RESTful API built in JavaScript that allows users to track their calor
 _Inspired by https://github.com/DiveHQ/backend-internship-task repository_ 
 
 ### Task Instructions
-- API Users must be able to create an account and log in.
-- All API calls must be authenticated.
-- Implement at least three roles with different permission levels: a regular user would only be able to CRUD on their owned records, a user manager would be able to CRUD only users, and an admin would be able to CRUD all records and users.
-- Each entry has a date, time, text, and number of calories.
-- If the number of calories is not provided, the API should connect to a Calories API provider (for example, https://www.nutritionix.com) and try to get the number of calories for the entered meal.
-- User setting – Expected number of calories per day.
-- Each entry should have an extra boolean field set to true if the total for that day is less than the expected number of calories per day, otherwise should be false.
-- The API must be able to return data in the JSON format.
-- The API should provide filter capabilities for all endpoints that return a list of elements, as well should be able to support pagination.
-- Write unit tests.
-- Use any *Javascript* web framework
-- Use *PostgreSQL* as the database
+- Users can create an account and log in to the API.
+- All API calls require authentication.
+- The API implements three roles with different permission levels: regular users can create, read, update, and delete their own records; user managers can create, read, update, and delete users; admins can create, read, update, and delete all records and users.
+- Each calorie entry consists of a date, time, text description, and number of calories.
+- If the number of calories is not provided, the API connects to a Calories API provider (such as [nutritionix.com](https://www.nutritionix.com)) to retrieve the calorie count for the entered meal.
+- Users can set their expected number of calories per day.
+- Each calorie entry has an additional boolean field indicating whether the total calories for that day is less than the expected number of calories per day (true) or not (false).
+- The API returns data in JSON format.
+- The API provides filtering capabilities for all endpoints that return a list of elements, and supports pagination.
+- Unit tests have been written to cover the core calorie logic.
+- The API is built using any JavaScript web framework.
+- PostgreSQL is used as the database.
 
 ### Task Expectations
 - API Design Best Practices
