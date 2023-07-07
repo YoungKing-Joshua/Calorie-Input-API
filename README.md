@@ -13,7 +13,7 @@ _Inspired by https://github.com/DiveHQ/backend-internship-task repository_
 - The API returns data in JSON format.
 - The API provides filtering capabilities for all endpoints that return a list of elements, and supports pagination.
 - Unit tests have been written to cover the core calorie logic.
-- The API is built using any JavaScript web framework.
+- The API is built using JavaScript web framework.
 - PostgreSQL is used as the database.
 
 ### Task Expectations
