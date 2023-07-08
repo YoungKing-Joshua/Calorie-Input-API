@@ -1,6 +1,6 @@
-import { Request, Response, Application, NextFunction } from "express";
+import { Request, Response, NextFunction } from "express";
 import jwt from "jsonwebtoken";
-import dotenv from "dotenv";g
+import dotenv from "dotenv";
 
 dotenv.config();
 const { TOKEN_SECRET } = process.env;
@@ -9,7 +9,7 @@ export interface CustomRequest extends Request {
     token: string | jwt.JwtPayload;
 };
 
-export const VerifyAuthToken = async (
+export const verifyAuthToken = async (
     req: Request,
     res: Response,
     next: NextFunction
