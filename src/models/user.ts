@@ -10,6 +10,7 @@ export type SignUp ={
     first_name: string;
     last_name: string;
     email: string;
+    role: string;
     password: string;
 }
 
@@ -58,6 +59,7 @@ export class User {
                 signUp.first_name,
                 signUp.last_name,
                 signUp.email,
+                signUp.role,
                 hash,
             ]);
             const output = await conn.query ("SELECT * FROM users WHERE email=($1)", [

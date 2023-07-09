@@ -37,6 +37,7 @@ const signUp = async (req: Request, res: Response): Promise<void> => {
       first_name: req.body.first_name,
       last_name: req.body.last_name,
       email: req.body.email,
+      role: req. body.role,
       password: req.body.password,
     };
     try {
