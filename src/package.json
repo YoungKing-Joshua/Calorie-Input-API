@@ -1,0 +1,60 @@
+{
+  "name": "calorie-tracker-api",
+  "version": "1.0.0",
+  "description": "This is a RESTful API built in JavaScript that allows users to track their calorie intake. \r _Inspired by https://github.com/DiveHQ/backend-internship-task repository_",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoungKing-Joshua/Calorie-Tracker-API.git"
+  },
+  "author": "Joshua Dei-Alorse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoungKing-Joshua/Calorie-Tracker-API/issues"
+  },
+  "homepage": "https://github.com/YoungKing-Joshua/Calorie-Tracker-API#readme",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/body-parser": "^1.19.2",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
+    "@types/db-migrate-pg": "^0.0.10",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.17",
+    "@types/jasmine": "^4.3.1",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/node": "^18.11.18",
+    "@types/pg": "^8.6.6",
+    "@types/supertest": "^2.0.12",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "copyfiles": "^2.4.1",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "db-migrate": "^0.1.3",
+    "db-migrate-pg": "^0.1.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jasmine-spec-reporter": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.11.1",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jasmine": "^4.5.0",
+    "jasmine-ts": "^0.4.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^2.8.3",
+    "tsc-watch": "^6.0.0",
+    "typescript": "^4.9.4"
+  }
+}

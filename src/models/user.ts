@@ -1,4 +1,4 @@
-import { connection } from "../routes/pgConnecetion";
+import { connection } from "../routes/pgConnection";
 import bcrypt from "bcrypt";
 import dotenv from "dotenv";
 
